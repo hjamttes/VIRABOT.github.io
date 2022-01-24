@@ -4,9 +4,9 @@
 var itemCounter = 0;
 var fps = 15;
 
-var money = 7.50;
-var currentCase = "case2";
-var acceptMoneyPerClick = 0.1;
+var money = 0;
+var currentCase = "case1";
+var acceptMoneyPerClick = 666.00;
 
 
 
@@ -22,10 +22,10 @@ var popup = true;
 var inventory = {};
 var jackpotInventory = {};
 
-var inventoryMax = 50;
+var inventoryMax = 2000000;
 var inventoryCurrent = 0;
 
-var keyPrice = 2.50;
+var keyPrice = 0.00;
 
 var caseDiscount = 0;
 var keyDiscount = 0;
@@ -163,9 +163,9 @@ var cases = {
   case1: {
     milspec: {
       weap1: {
-        name: "MP7 | Skulls",
-        price: 0.78,
-        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou6ryFA957ODDZDFO_-O6nYeDg8j4MqnWkyUC7ZYp07iT94j3jVXsqkE-Y2qhJYKcJwA_aA7ZrFC6wLvqgcDt78ud1zI97Xw9NqWl"
+        name: "JOEMAMA",
+        price: 1e+308,
+        img: "https://i.scdn.co/image/ab67616d0000b273ea95eb660d024a2460e35d3d"
       },
       weap2: {
         name: "AUG | Wings",
